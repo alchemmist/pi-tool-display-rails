@@ -57,7 +57,7 @@ const MAX_USER_MESSAGE_MARKDOWN_TEXT_LENGTH = 100_000;
 const MAX_USER_MESSAGE_MARKDOWN_LINE_COUNT = 2_000;
 
 function getUserMessageRail(theme: UserMessageTheme | undefined): string {
-  const rail = "▌";
+  const rail = "┃"
   if (!theme) {
     return rail;
   }
